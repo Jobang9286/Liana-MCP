@@ -1,0 +1,9 @@
+scanpy
+liana
+mofapy2
+pandas
+numpy
+scipy
+matplotlib
+mcp
+uvicorn

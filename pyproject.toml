@@ -1,0 +1,24 @@
+[project]
+name = "liana_mcp"
+version = "0.1.0"
+description = "MCP server for cell-cell interaction analysis using LIANA"
+authors = [{ name = "Bang" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "scanpy",
+    "liana",
+    "mofapy2",
+    "pandas",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "mcp",
+    "uvicorn"
+]
+
+[tool.setuptools]
+packages = ["tools"]
+
+[tool.uv.workspace]
+members = ["mcp"]
